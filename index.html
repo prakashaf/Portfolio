@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakash Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body  data-bs-theme="light">
+    <header>
+        <nav class=" navbar navbar-expand-lg bg-body-tertiary ">
+            <div class=" mx-auto mx-lg-5 container-fluid" id="navbar">
+              <a class="navbar-brand text-uppercase"id="logo" href="#">Prakash</a>
+              <input type="checkbox" id="checkbox" class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <label for="checkbox" class=" d-md-none toggle">
+                  <div class="bars" id="bar1"></div>
+                  <div class="bars" id="bar2"></div>
+                  <div class="bars" id="bar3"></div>
+              </label>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto align-items-center px-5 text-capitalize ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#about">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#skills">skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#project">project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contact">contact</a>
+                  </li>
+                    <li>
+                            <input class="l" type="checkbox" onclick="myfunction()">
+                    </li>
+                    <li>
+                        <a href="/Prakash_Resume.pdf" id="cv-an" download><button class="m-2 btn btn btn-dark text-capitalize" id="CV-button"type="submit">download cv</button></a>
+                    </li>
+                </ul>
+
+                    
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <main class=" container-fluid ">
+      <!-- ------------------------------------------------------home--------------------------------------------------------------------- -->
+        <section class="mx-auto mx-lg-5" id="home">
+        <div class="row my-5">
+            <div class="col-lg-7 col-md-7 mt-lg-5 col-12 order-1">
+              <div class="typed-strings">
+                <span class="text-capitalize " id="typed"></span>
+              </div>
+                <p data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"  data-aos-duration="4000" data-aos-easing="linear" class="text-capitalize text-center text-sm-start py-2 mt-lg-4 text-justify"> I am a dedicated and talented individual with a strong work ethic and a passion for my work. My solid background in computer knowledge allows me to blend technical skills with a commitment to hard work, consistently achieving exceptional results.</p>
+                <h6 data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"  data-aos-duration="6000" data-aos-easing="linear" class="text-uppercase text-center text-sm-start mt-lg-4"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-480q33 0 56.5-23.5T560-560q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 33 23.5 56.5T480-480Zm0 294q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg> puducherry</h6>
+            
+            <div class="link-list py-2 mt-lg-4 text-center text-sm-start">  
+              <ul  class="example-2 mt-5 mt-lg-0">
+                <li data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"  data-aos-duration="6000" data-aos-delay="200"  data-aos-easing="linear" class="icon-content">
+                  <a
+                    href="https://www.linkedin.com/in/prakash-k-389820248/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    aria-label="LinkedIn"
+                    data-social="linkedin"
+                    >
+                    <div class="filled"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16" xml:space="preserve">
+                      <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </a>
+                  <div class="tooltip">LinkedIn</div>
+                </li>
+                <li  data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"  data-aos-duration="3800" data-aos-delay=200"  data-aos-easing="linear" class="icon-content">
+                  <a href="https://github.com/prakashaf" aria-label="GitHub" data-social="github">
+                    <div class="filled"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16" xml:space="preserve">                  
+                     <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </a>
+                  <div class="tooltip">GitHub</div>
+                </li>
+                <li data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"  data-aos-duration="6000" data-aos-delay="200" data-aos-easing="linear" class="icon-content">
+                  <a
+                    href="https://www.instagram.com/mr..unique._?igsh=NTc4MTIwNjQ2YQ=="
+                    aria-label="Instagram"
+                    data-social="instagram"
+                  >
+                    <div class="filled"></div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-instagram"
+                      viewBox="0 0 16 16"
+                      xml:space="preserve"
+                    >
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </a>
+                  <div class="tooltip">Instagram</div>
+                </li>
+                <li data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"  data-aos-duration="6000" data-aos-delay="200" data-aos-easing="linear"  class="icon-content">
+                  <a href="https://youtube.com/@UNICORNGAMERTAMIL" aria-label="Youtube" data-social="youtube">
+                    <div class="filled"></div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-youtube"
+                      viewBox="0 0 16 16"
+                      xml:space="preserve"
+                    >
+                      <path
+                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </a>
+                  <div class="tooltip">Youtube</div>
+                </li>
+              </ul>
+              
+            </div>
+        </div>
+            <div id="image-box"class="col-lg-5 col-md-5 col-12 order-sm-2">
+                <img src="prakash.jpg" id="Portfolio-image" class="img-fluid mx-auto d-block" alt="Portfolio-image" loading="lazy"  width="85%">
+            </div>
+        </div>
+        </section>   
+        <div class="v2">
+          <label for="" class="p-1">About me</label>
+        </div>
+        <!-- ----------------------------------------------------------------about me---------------------------------------------------------- -->
+        <section class="mx-auto mx-lg-5" id="about">
+          <div class="row my-5 ">
+              <div data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom" class=" col-lg-7 col-md-7 col-12 order-2">
+                  <h1 class="text-capitalize font-xs-small py-2 ps-2 mt-lg-4 mt-1 ms-4 ">Curious about me? Here you have it:</h1>
+                  <p class="text-capitalize py-1 ps-2  ms-lg-4 text-justify">I'm Prakash, a dedicated individual with a strong work ethic, passionate about my work and combining technical skills with a commitment to achieving exceptional results. I have completed  Bachelor of Computer Application (BCA) at Achariya Arts and Science College in Pondicherry, where I have maintained a GPA of 7.0 from 2021 to 2024. Prior to this, I completed my secondary education at Government Higher Secondary School in Pondicherry with a 70% score in 2020-2021, and my higher education at Achariya Shiksha Mandir School with a 60% score in 2018-2019.</p>
+
+                   <P class="text-capitalize py-1 ps-2 ms-lg-4 text-justify">I have developed several comprehensive projects, including a restaurant website using HTML, CSS, JavaScript, and Bootstrap. Additionally, I built a weather broadcasting website utilizing HTML, CSS, JavaScript, and API . Another significant project is the NxT Gen Mall management website, created using HTML, CSS, JavaScript, PHP, MySQL, and Bootstrap, completed in March 2024. for more details u can vist <a href="#project" id="about-dis">my project </a>section. </br></P> 
+                    
+                   <p class="text-capitalize py-1 ps-2 ms-lg-4 text-justify"> I have completed various courses and certifications to enhance my skills, including React JS from UDEMY and JavaScript from Scaler. I also attended a workshop on React JS. My technical skills encompass HTML5, CSS3, JavaScript, React JS, Angular JS (workshop), PHP, and Python.</P> 
+                    
+                    <p class="text-capitalize py-1 ps-2 ms-lg-4 text-justify">I have actively participated in extracurricular activities, serving as President of the Achariya Code Club 2K24 and organizing events for Robotic Process Automation (RPA) in Puducherry. I am proficient in English and Tamil, which complements my technical expertise.</P> 
+                    
+                    <P class="text-capitalize py-1 ps-2 ms-lg-4 text-justify">  For more information or to connect, please click any links landing page. You can also reach me via email by <a href="#contact" id="about-dis">contact page</a></br></p>
+              </div>
+              <div id="image-box"class="col-lg-5 col-md-5 col-12 order-sm-1">
+                  <img src="prakash2.jpg" id="Portfolio-image2" data-aos="fade-in" class="img-fluid mt-2 mx-auto d-block d-none d-sm-block" width="70%" alt="Portfolio-image">
+              </div>
+          </div>
+          </section>  
+          <div class="v2">
+            <label for="" class="px-2">skills</label>
+          </div>
+          <!-- --------------------------------------------------------------------skills -->
+          <section class="mx-auto mx-lg-5" id="skills">
+            <div class="row my-5 align-items-center justify-content-center ">
+              <h1 class="text-center fs-1" id="skill-h1">The skills and technologies I am really good at:</h1>
+                <div class="col-lg-3 col-md-5 col-12 m-3 align-items-center ">
+                  <img src="skill-pic/HTML5.png " width="250px" class=" mx-auto d-block card-skills" alt="">
+                  <h2 class="text-uppercase text-center">HTML 5</h2>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12 m-3 align-items-center">
+                  <img src="skill-pic/CSS-Logo.png" width="250px" class=" mx-auto d-block card-skills " alt="">
+                  <h2 class="text-uppercase text-center ">CSS 3</h2>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12 m-3 align-items-center">
+                  <img src="skill-pic/js.jpg" width="200px" class=" mx-auto d-block card-skills" alt="">
+                  <h2 class="text-uppercase text-center">JAVASCRIPT</h2>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12 m-3 align-items-center">
+                  <img src="skill-pic/bootstrap-logo.png" width="250px" class=" mx-auto d-block card-skills" alt="">
+                  <h2 class="text-uppercase text-center">BOOTSTRAP 5</h2>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12 m-3 align-items-center">
+                  <img src="skill-pic/react.png" width="200px" class=" mx-auto d-block card-skills" alt="">
+                  <h2 class="text-uppercase text-center ">REACT JS</h2>
+                </div>
+                <div class="col-lg-3 col-md-5 col-12 m-3 align-items-center">
+                  <img src="skill-pic/python.png" width="180px" class=" mx-auto d-block card-skills" alt="">
+                  <h2 class="text-uppercase text-center ">PYTHON</h2>
+                </div>
+            </div>
+            </section>
+            
+            <!-- -----------------------------------------project -->
+            <div class="v2">
+              <label for="" class="px-2">Project</label>
+            </div>
+            <section class="mx-auto mx-lg-5" id="project">
+              <div class="row my-5 align-items-center justify-content-center">
+                <h1 class="text-center fs-1" id="skill-h1">Here is a quick summary of my projects:</h1>
+                  <div class="col-lg-5 col-md-5 col-12 m-3 align-items-center ">
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row no-gutters">
+                        <div class="col-md-12">
+                          <div class="card-body">
+                            <h5 class="card-title">Prakash Restaurant</h5>
+                            <p class="card-text text-justify p-2">A fully developed and sophisticated restaurant website using HTML, CSS, JavaScript, and Bootstrap, finalized in June 2023, featuring a modern design, intuitive user interface, responsive layout, and interactive elements to enhance the user experience.</p>
+                            <p class="card-text"><small class="text-muted">worked at JUN-2023</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-5 col-12 m-3 align-items-center ">
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row no-gutters">
+                        <div class="col-md-12">
+                          <div class="card-body">
+                            <h5 class="card-title">Weather broadcasting</h5>
+                            <p class="card-text text-justify">I successfully built a comprehensive weather broadcasting website utilizing HTML, CSS, JavaScript, and a public weather API. This project features a dynamic and user-friendly interface, real-time weather updates, location-based forecasts, and interactive elements to provide an engaging and informative user experience.</p>
+                            <p class="card-text"><small class="text-muted">worked at FEB-2023</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-5 col-12 m-3 align-items-center ">
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row no-gutters">
+                        <div class="col-md-12">
+                          <div class="card-body">
+                            <h5 class="card-title">My Portfolio</h5>
+                            <p class="card-text">My portfolio website, meticulously crafted using only HTML, CSS, and Bootstrap, showcases a blend of simplicity and elegance. Completed to highlight my personal projects, skills, and professional experiences, this website features a clean, modern design with responsive layouts for seamless viewing on any device, it effectively presents my work and achievements, making it a powerful tool for career advancement.</p>
+                            <p class="card-text"><small class="text-muted">worked at JUN-2023</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-lg-5 col-md-5 col-12 m-3 align-items-center ">
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row no-gutters">
+                        <div class="col-md-12">
+                          <div class="card-body">
+                            <h5 class="card-title">NXT GEN MALL</h5>
+                            <p class="card-text">The NxT Gen Mall Management Website, created using HTML, CSS, JavaScript, PHP, MySQL, and Bootstrap, offers a cutting-edge solution for efficient mall management. This advanced platform includes comprehensive features such as tenant management, customer engagement tools, and real-time analytics. Designed with responsive interface, it ensures seamless navigation   making it an indispensable tool for mall administrators</p>
+                            <p class="card-text"><small class="text-muted">worked at MAR-2023</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              </section>  
+              <div class="v2">
+                <label for="" class="p-1">contact</label>
+              </div>
+              <!-- ----------------------------------------------------------------contact---------------------------------------------------------- -->
+              <section class="mx-auto mx-lg-5" id="contact">
+                <div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+                  <div class="card card0 border-0">
+                      <div class="row d-flex">
+                          <div class="col-lg-6">
+                              <div class="card1 pb-5 d-block d-none d-sm-block">
+                                  <div class="row px-3 justify-content-center mt-4 mb-5 border-line">
+                                      <img src="contact-pic.jpg" class="img-fluid">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <form action="https://api.web3forms.com/submit" method="POST">
+                              <div class="card2 card border-0 px-4 py-5">
+                                <h1 class="text-center fs-1" id="skill-h1">Any suggestions or need to contact me?</h1>
+                                <input type="hidden" name="access_key" value="fb46cc3f-2cee-4075-a89b-a2b93f857677">
+                                  <div class="row px-3">
+                                      <label class="mb-1" for="email"><h6 class="mb-0 text-sm">Email Address</h6></label>
+                                      <input class="mb-4" type="text" id="email" name="email" placeholder="Enter a valid email address">
+                                  </div>
+                                  <div class="row px-3">
+                                      <label class="mb-1" for="subject"><h6 class="mb-0 text-sm">subject</h6></label>
+                                      <input type="text" name="subject" id="subject" placeholder="">
+                                  </div>
+                                  <div class="row px-3">
+                                    <label class="mb-1" for="details"><h6 class="mb-0 text-sm">details</h6></label>
+                                    <textarea name="details"  id="details"></textarea>
+                                </div>
+                                  <div class="row mb-3 px-3 d-flex  justify-content-center p-2 m-4">
+                                      <button type="submit" class="d-flex align-items-center" id="CV-button">summit</button>
+                                  </div>
+                              </div>
+                            </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+                </section>
+    </main>
+    <!-- ---------------------------------------------------footer -->
+    <div class="footer-basic" data-aos="fade-in"  >
+      <footer>
+          <div class="social">
+            <a href="https://github.com/prakashaf"><svg role="img" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+            
+            <a href="https://www.linkedin.com/in/prakash-k-389820248/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+            
+            <a href="https://www.instagram.com/mr..unique._?igsh=MTUyNno5ZHh3Mzk3bg=="><svg role="img" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg></a>
+          
+          </div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="#home">Home</a></li>
+              <li class="list-inline-item"><a href="#about">About</a></li>
+              <li class="list-inline-item"><a href="#skills">Skills</a></li>
+              <li class="list-inline-item"><a href="#project">Projects</a></li>
+              <li class="list-inline-item"><a href="#c.ontact">Contact</a></li>
+          </ul>
+          <p class="copyright">Prakash © 2024</p> 
+      </footer>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed('#typed', {
+  // Waits 1000ms after typing "First"
+  strings: ['Hi,^500 iam prakash^4000'],typeSpeed:100,loop:true,showCursor: false,
+});
+    </script>
+    <script>
+
+      function myfunction(){
+        var element = document.body;
+        element.dataset.bsTheme = element.dataset.bsTheme == "light" ? "dark" : "light";
+
+      }
+    </script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
